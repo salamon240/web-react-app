@@ -1,0 +1,19 @@
+.main-blog {
+  flex: 1 1 0%;
+  padding-left: 15%;
+  padding-right: 15%;
+  box-sizing: border-box;
+  padding-top: 72px;
+}
+.info-blog {
+  min-height: 820px;
+  width: 100%;
+  flex: 1 1 0%;
+  .box-info {
+    height: 100%;
+    margin-bottom: 32px;
+    width: 100%;
+
+   
+  }
+}

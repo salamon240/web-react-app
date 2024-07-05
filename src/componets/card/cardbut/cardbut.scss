@@ -1,0 +1,22 @@
+.item-details {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+  height: 50%;
+  max-height: 50%;
+  text-align: start;
+  .date-p {
+    font-weight: 600;
+  }
+  .titel-but {
+    margin-bottom: 14px;
+  }
+  .details {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #2e2f38;
+  }
+}

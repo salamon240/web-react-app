@@ -1,0 +1,32 @@
+.Fearured{
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        max-height: 100vh;
+        overflow: hidden;
+        width: 100%;
+        padding-bottom: 64px;
+        border-bottom:1px solid #050001;
+        .info{
+            text-align: center;
+            margin-top: 526px;
+        }
+        h1{
+            color: white;
+            padding-bottom: 20px;
+            
+        }
+
+        .linkButton{
+            text-decoration: none;
+            background-color: white;
+            padding: 15px;
+            color: #BB2649;
+            border-radius: 20px;
+        }
+       
+
+}
+

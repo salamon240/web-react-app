@@ -1,0 +1,61 @@
+.item-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  box-sizing: border-box;
+  width: 354px;
+  margin: auto;
+  .btn-email {
+    height: 50px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    position: relative;
+    width: 100%;
+    .inputBtn {
+        height: 100%;
+        border-radius: 4px 0px 0px 4px;
+        border-right: 0px;
+        width: 254px;
+        font-family: Ploni;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        position: absolute;
+        left: 0px;
+        right: initial;
+        border: 1px solid #e1e1e1;
+        outline: none;
+
+    }
+    .inputBtn:focus{
+        border: 1px solid #bb2649;
+
+    }
+    .inputBtn:hover{
+        border: 1px solid #1e1b1c;
+
+    }
+    .btnEmail {
+        border-radius: 4px;
+        height: 108%;
+        box-shadow: none;
+        position: absolute;
+        right: 0px;
+        left: initial;
+        width: 100px;
+        border: none;
+        background-color: #bb2649;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 16px;
+    }
+  }
+}

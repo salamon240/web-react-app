@@ -1,0 +1,86 @@
+ 
+    <div className='items'>
+        <div className="videoItem">
+            <video
+        className="video-blog"
+       autoPlay 
+       loop
+       muted
+       
+        src={video}
+      ></video>
+
+
+      </div>
+            <div className="item-details">
+            <p>25/12/2002 soli sol</p>
+            <h4>A new Beauty Care is coming</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores itaque dignissimos voluptate repudiandae provident eaque, veritatis tempore officiis beatae consectetur a eligendi debitis sint saepe, modi veniam aut aspernatur.</p>
+              </div>
+        
+        </div>
+    <div className='items'>
+     
+            <div className="item-details">
+            <p>25/12/2002 soli sol</p>
+            <h4>A new Beauty Care is coming</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores itaque dignissimos voluptate repudiandae provident eaque, veritatis tempore officiis beatae consectetur a eligendi debitis sint saepe, modi veniam aut aspernatur.</p>
+              </div>
+              <div className="videoItem" style={{rotate:"180deg"}}>
+            <video
+        className="video-blog"
+       autoPlay 
+       loop
+       muted
+       
+        src={video}
+      ></video>
+
+
+      </div>
+        </div>
+    <div className='items'>
+        <div className="videoItem">
+            <video
+        className="video-blog"
+       autoPlay 
+       loop
+       muted
+       
+        src={video}
+      ></video>
+
+
+      </div>
+            <div className="item-details">
+            <p>25/12/2002 soli sol</p>
+            <h4>A new Beauty Care is coming</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores itaque dignissimos voluptate repudiandae provident eaque, veritatis tempore officiis beatae consectetur a eligendi debitis sint saepe, modi veniam aut aspernatur.</p>
+              </div>
+        
+        </div>
+    <div className='items'>
+    
+              <div className="videoItem" style={{rotate:"180deg"}}>
+            <video
+        className="video-blog"
+       autoPlay 
+       loop
+       muted
+       
+        src={video}
+      ></video>
+
+
+      </div>
+        </div>
+    <div className='items'>
+        
+            <div className="item-details">
+            <p>25/12/2002 soli sol</p>
+            <h4>A new Beauty Care is coming</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores itaque dignissimos voluptate repudiandae provident eaque, veritatis tempore officiis beatae consectetur a eligendi debitis sint saepe, modi veniam aut aspernatur.</p>
+              </div>
+        
+        </div>
+  
