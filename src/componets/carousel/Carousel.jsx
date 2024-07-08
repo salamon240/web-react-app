@@ -72,15 +72,15 @@ function Carousel() {
             <Cardbut />
           </button>
         </div>
-        {/* Add more cards as needed */}
+        
       </Slider>
       <div className="arrow-slide" style={{}}>
         <a onClick={previous}>
-          <span class="material-icons">chevron_left</span>
+          <span className="material-icons">chevron_left</span>
         </a>
 
         <a onClick={next}>
-          <span class="material-icons">navigate_next</span>
+          <span className="material-icons">navigate_next</span>
         </a>
       </div>
     </div>

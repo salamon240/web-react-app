@@ -1,0 +1,37 @@
+{
+    "navbar":{
+
+        "home":"Home",
+        "blog" :"Blog",
+        "instgram":"Instgram",
+        "languge":"Languge"
+       
+    },
+    "fearured":{
+        "titelHome":"A new Beauty Care is coming",
+        "liinkHome":" Read Lastest Update "
+    },
+
+    "footer":{
+        "aprivacy":"Privacy policy",
+        "a":" Accessibility Statement"
+
+
+    },
+    "blogFooter":{
+        "titel":"     Stay up to date with our latest news",
+        "input":"SUBSCRIBE",
+        "p":"  By submitting my email address, I agree to receive marketing emails, newsletters and updates."
+    },
+    "card":{
+        "pdate":"25/12/2002 soli sol",
+        "titel":"  A new Beauty Care is coming",
+        "pdtails":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores itaque dignissimos voluptate repudiandae provident eaque,veritatis tempore officiis beatae consectetur a eligendi debitis sintsaepe, modi veniam aut aspernatur. "
+    }
+    
+
+
+
+
+}
+

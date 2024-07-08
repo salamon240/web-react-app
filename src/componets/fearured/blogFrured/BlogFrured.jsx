@@ -1,15 +1,21 @@
 import React from "react";
 import "./blogFrured.scss";
+import {useTranslation} from 'react-i18next'
+import { DataContext } from "../../../context/Datacontext.jsx";
+import { useContext } from "react";
 
 function BlogFrured() {
+  const { t } = useTranslation();
+  const { lng } = useContext(DataContext);
+
   return (
-    <div className="item-blog">
-      <h4>Stay up to date with our latest news</h4>
+    <div className="item-blog" dir={lng === 'he' ? 'rtl' : 'ltr'}>
+      <h4>{t('blogFooter.titel')}</h4>
       <div className="btn-email">
         <input className="inputBtn" type="text" placeholder="Enter yout email address" />
-        <button className="btnEmail" type="button" onClick={()=>{console.log("hii")}}>SUBSCRIBE</button>
+        <button className="btnEmail" type="button" onClick={()=>{console.log("hii")}}>{t('blogFooter.input')}</button>
       </div>
-      <p>By submitting my email address, I agree to receive marketing emails, newsletters and updates.</p>
+      <p>{t('blogFooter.p')}</p>
     </div>
   );
 }

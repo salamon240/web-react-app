@@ -1,16 +1,18 @@
 import React from "react";
 import "./cardbut.scss";
-
+import {useTranslation} from 'react-i18next'
+import { DataContext } from "../../../context/Datacontext.jsx";
+import { useContext } from "react";
 function Cardbut() {
+  const { t } = useTranslation();
+  const { lng } = useContext(DataContext);
   return (
-    <div className="item-details">
-      <p className="date-p">25/12/2002 soli sol</p>
-      <h4 className="titel-but">A new Beauty Care is coming</h4>
+    //info to the blog page card
+    <div className="item-details" dir={lng === 'he' ? 'rtl' : 'ltr'}>
+      <p className="date-p">{t('card.pdate')}</p>
+      <h4 className="titel-but">{t('card.titel')}</h4>
       <p className="details">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-        asperiores itaque dignissimos voluptate repudiandae provident eaque,
-        veritatis tempore officiis beatae consectetur a eligendi debitis sint
-        saepe, modi veniam aut aspernatur.
+      {t('card.pdtails')}
       </p>
     </div>
   );

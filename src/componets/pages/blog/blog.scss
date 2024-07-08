@@ -4,6 +4,8 @@
   padding-right: 15%;
   box-sizing: border-box;
   padding-top: 72px;
+  opacity: 0;
+  animation: fadeInAnimation 1s ease-in forwards;
 }
 .info-blog {
   min-height: 820px;
@@ -15,5 +17,15 @@
     width: 100%;
 
    
+  }
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px); // Optional: Slide up animation
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
