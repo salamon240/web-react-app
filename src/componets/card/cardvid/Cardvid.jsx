@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../../../imge/istockphoto-1743225414-640_adpp_is.mp4";
+import video from "../../../imge/6725000-uhd_2160_3840_25fps.mp4";
 import "./cardvid.scss";
 function cardvid({ rotate }) {
   return (

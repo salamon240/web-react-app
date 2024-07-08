@@ -12,7 +12,7 @@ function BlogFrured() {
     <div className="item-blog" dir={lng === 'he' ? 'rtl' : 'ltr'}>
       <h4>{t('blogFooter.titel')}</h4>
       <div className="btn-email">
-        <input className="inputBtn" type="text" placeholder="Enter yout email address" />
+        <input className="inputBtn" type="text" placeholder={t('blogFooter.holder')} />
         <button className="btnEmail" type="button" onClick={()=>{console.log("hii")}}>{t('blogFooter.input')}</button>
       </div>
       <p>{t('blogFooter.p')}</p>

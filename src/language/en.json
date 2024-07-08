@@ -21,7 +21,8 @@
     "blogFooter":{
         "titel":"     Stay up to date with our latest news",
         "input":"SUBSCRIBE",
-        "p":"  By submitting my email address, I agree to receive marketing emails, newsletters and updates."
+        "p":"  By submitting my email address, I agree to receive marketing emails, newsletters and updates.",
+        "holder":"Enter yout email address"
     },
     "card":{
         "pdate":"25/12/2002 soli sol",
