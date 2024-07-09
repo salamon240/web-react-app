@@ -19,7 +19,6 @@ function Navbar() {
     } else {
       setStatus("optionBlock");
     }
-    console.log("soli", status);
   };
 
   const handelbar = () => {
@@ -28,10 +27,7 @@ function Navbar() {
     } else {
       setBarStatus(false);
     }
-    console.log(barStatus);
   };
-// FUNCTION TO CHANG LANGUGE
-  console.log("langueg",lng)
  
   
   return (

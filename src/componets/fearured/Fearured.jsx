@@ -5,7 +5,6 @@ import { useTranslation } from 'react-i18next';
 
 function Fearured() {
   const { t } = useTranslation();
-  console.log("titelHome ")
   return (
     <div className='Fearured'>
         <div className="info">
